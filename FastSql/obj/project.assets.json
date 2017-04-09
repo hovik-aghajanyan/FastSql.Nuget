@@ -2,6 +2,19 @@
   "version": 2,
   "targets": {
     ".NETStandard,Version=v1.4": {
+      "FastSql.Sdk/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "NETStandard.Library": "1.6.1",
+          "System.Data.SqlClient": "4.3.0"
+        },
+        "compile": {
+          "lib/netstandard1.4/FastSql.Sdk.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.4/FastSql.Sdk.dll": {}
+        }
+      },
       "Microsoft.NETCore.Platforms/1.1.0": {
         "type": "package",
         "compile": {
@@ -1239,18 +1252,20 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
-      },
-      "FastSql.Sdk.Hovo/1.0.0": {
-        "type": "project",
-        "framework": ".NETStandard,Version=v1.4",
-        "dependencies": {
-          "NETStandard.Library": "1.6.1",
-          "System.Data.SqlClient": "4.3.0"
-        }
       }
     }
   },
   "libraries": {
+    "FastSql.Sdk/1.0.0": {
+      "sha512": "dV/4lRbPjMLsqMW9ZiU0jQn+/A65W2VPohK5OR1JqQrYi2TXdI5+NkpGkHBSd4haBhvG9WL+ZQN5gqYUCdJQMw==",
+      "type": "package",
+      "path": "fastsql.sdk/1.0.0",
+      "files": [
+        "fastsql.sdk.1.0.0.nupkg.sha512",
+        "fastsql.sdk.nuspec",
+        "lib/netstandard1.4/FastSql.Sdk.dll"
+      ]
+    },
     "Microsoft.NETCore.Platforms/1.1.0": {
       "sha512": "kz0PEW2lhqygehI/d6XsPCQzD7ff7gUJaVGPVETX611eadGsA3A877GdSlU0LRVMCTH/+P3o2iDTak+S08V2+A==",
       "type": "package",
@@ -4617,16 +4632,11 @@
         "system.xml.xdocument.4.3.0.nupkg.sha512",
         "system.xml.xdocument.nuspec"
       ]
-    },
-    "FastSql.Sdk.Hovo/1.0.0": {
-      "type": "project",
-      "path": "../FastSql.Sdk/FastSql.Sdk.csproj",
-      "msbuildProject": "../FastSql.Sdk/FastSql.Sdk.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v1.4": [
-      "FastSql.Sdk.Hovo >= 1.0.0",
+      "FastSql.Sdk >= 1.0.0",
       "NETStandard.Library >= 1.6.1",
       "System.Data.SqlClient >= 4.3.0"
     ]
@@ -4635,7 +4645,7 @@
     "C:\\Users\\hovo1\\.nuget\\packages\\": {}
   },
   "project": {
-    "version": "1.0.0",
+    "version": "1.0.1",
     "restore": {
       "projectUniqueName": "E:\\VisualStudio2017 Projects\\Fast.Sql.nuget\\FastSql\\FastSql.csproj",
       "projectName": "FastSql",
@@ -4647,17 +4657,17 @@
       ],
       "frameworks": {
         "netstandard1.4": {
-          "projectReferences": {
-            "E:\\VisualStudio2017 Projects\\Fast.Sql.nuget\\FastSql.Sdk\\FastSql.Sdk.csproj": {
-              "projectPath": "E:\\VisualStudio2017 Projects\\Fast.Sql.nuget\\FastSql.Sdk\\FastSql.Sdk.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       }
     },
     "frameworks": {
       "netstandard1.4": {
         "dependencies": {
+          "FastSql.Sdk": {
+            "target": "Package",
+            "version": "1.0.0"
+          },
           "NETStandard.Library": {
             "target": "Package",
             "version": "1.6.1",

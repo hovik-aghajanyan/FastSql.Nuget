@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Hovik Aghajanyan")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyCopyrightAttribute("Copyright 2017 (c) Hovik Aghajanyan. All rights reserved.")]
-[assembly: System.Reflection.AssemblyDescriptionAttribute("Sdk for models")]
+[assembly: System.Reflection.AssemblyDescriptionAttribute("Sdk for Fast.Sql models")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
 [assembly: System.Reflection.AssemblyProductAttribute("FastSql.Sdk")]

@@ -1,0 +1,6 @@
+E:\VisualStudio2017 Projects\Fast.Sql.nuget\FastSql\bin\Release\netstandard1.4\FastSql.deps.json
+E:\VisualStudio2017 Projects\Fast.Sql.nuget\FastSql\bin\Release\netstandard1.4\FastSql.dll
+E:\VisualStudio2017 Projects\Fast.Sql.nuget\FastSql\bin\Release\netstandard1.4\FastSql.pdb
+E:\VisualStudio2017 Projects\Fast.Sql.nuget\FastSql\obj\Release\netstandard1.4\FastSql.AssemblyInfo.cs
+E:\VisualStudio2017 Projects\Fast.Sql.nuget\FastSql\obj\Release\netstandard1.4\FastSql.dll
+E:\VisualStudio2017 Projects\Fast.Sql.nuget\FastSql\obj\Release\netstandard1.4\FastSql.pdb
