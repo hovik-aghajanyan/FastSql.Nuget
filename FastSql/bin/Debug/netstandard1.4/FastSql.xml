@@ -1,0 +1,154 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>FastSql</name>
+    </assembly>
+    <members>
+        <member name="T:FastSql.Query">
+            <summary>
+            Query object which help to execute querys 
+            </summary>
+        </member>
+        <member name="P:FastSql.Query.Command">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:FastSql.Query.Connection">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:FastSql.Query.#ctor(System.String,System.Data.SqlClient.SqlParameter[])">
+            <summary>
+            
+            </summary>
+            <param name="query"></param>
+            <param name="parameters"></param>
+        </member>
+        <member name="M:FastSql.Query.#ctor(System.String,FastSql.Sdk.Interfaces.ISqlParameter)">
+            <summary>
+            
+            </summary>
+            <param name="query"></param>
+            <param name="parameter"></param>
+        </member>
+        <member name="M:FastSql.Query.Execute">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:FastSql.Query.Execute``1">
+            <summary>
+            
+            </summary>
+            <typeparam name="T"></typeparam>
+            <returns></returns>
+        </member>
+        <member name="M:FastSql.Query.Execute``2">
+            <summary>
+            
+            </summary>
+            <typeparam name="T1"></typeparam>
+            <typeparam name="T2"></typeparam>
+            <returns></returns>
+        </member>
+        <member name="M:FastSql.Query.Execute``3">
+            <summary>
+            
+            </summary>
+            <typeparam name="T1"></typeparam>
+            <typeparam name="T2"></typeparam>
+            <typeparam name="T3"></typeparam>
+            <returns></returns>
+        </member>
+        <member name="M:FastSql.Query.ExecuteSingle``1">
+            <summary>
+            
+            </summary>
+            <typeparam name="T"></typeparam>
+            <returns></returns>
+        </member>
+        <member name="T:FastSql.Sql">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:FastSql.Sql.Connection">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:FastSql.Sql.Initilize(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="connectionString"></param>
+        </member>
+        <member name="T:FastSql.StoredProcedure">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:FastSql.StoredProcedure.Command">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:FastSql.StoredProcedure.Connection">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:FastSql.StoredProcedure.#ctor(System.String,System.Data.SqlClient.SqlParameter[])">
+            <summary>
+            
+            </summary>
+            <param name="name"></param>
+            <param name="parameters"></param>
+        </member>
+        <member name="M:FastSql.StoredProcedure.#ctor(System.String,FastSql.Sdk.Interfaces.ISqlParameter)">
+            <summary>
+            
+            </summary>
+            <param name="name"></param>
+            <param name="parameter"></param>
+        </member>
+        <member name="M:FastSql.StoredProcedure.Execute">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:FastSql.StoredProcedure.Execute``1">
+            <summary>
+            
+            </summary>
+            <typeparam name="T"></typeparam>
+            <returns></returns>
+        </member>
+        <member name="M:FastSql.StoredProcedure.Execute``2">
+            <summary>
+            
+            </summary>
+            <typeparam name="T1"></typeparam>
+            <typeparam name="T2"></typeparam>
+            <returns></returns>
+        </member>
+        <member name="M:FastSql.StoredProcedure.Execute``3">
+            <summary>
+            
+            </summary>
+            <typeparam name="T1"></typeparam>
+            <typeparam name="T2"></typeparam>
+            <typeparam name="T3"></typeparam>
+            <returns></returns>
+        </member>
+        <member name="M:FastSql.StoredProcedure.ExecuteSingle``1">
+            <summary>
+            
+            </summary>
+            <typeparam name="T"></typeparam>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

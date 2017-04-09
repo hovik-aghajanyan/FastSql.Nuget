@@ -1,0 +1,6 @@
+c:\users\hovo1\documents\visual studio 2017\Projects\FastSql Example\FastSql Example\bin\Debug\netcoreapp1.1\FastSql Example.deps.json
+c:\users\hovo1\documents\visual studio 2017\Projects\FastSql Example\FastSql Example\bin\Debug\netcoreapp1.1\FastSql Example.runtimeconfig.json
+c:\users\hovo1\documents\visual studio 2017\Projects\FastSql Example\FastSql Example\bin\Debug\netcoreapp1.1\FastSql Example.runtimeconfig.dev.json
+c:\users\hovo1\documents\visual studio 2017\Projects\FastSql Example\FastSql Example\bin\Debug\netcoreapp1.1\FastSql Example.dll
+c:\users\hovo1\documents\visual studio 2017\Projects\FastSql Example\FastSql Example\obj\Debug\netcoreapp1.1\FastSql Example.csprojResolveAssemblyReference.cache
+c:\users\hovo1\documents\visual studio 2017\Projects\FastSql Example\FastSql Example\obj\Debug\netcoreapp1.1\FastSql Example.AssemblyInfo.cs
