@@ -41,9 +41,9 @@ namespace FastSql.Sdk.Bases
                 {
                     propertyInfo.SetValue(this, Guid.Parse(reader[colName].ToString()));
                 }
-                else if (propertyInfo.PropertyType == typeof(DateTime))
+                else if (propertyInfo.PropertyType == typeof(DateTime) || propertyInfo.PropertyType == typeof(DateTime?))
                 {
-                    propertyInfo.SetValue(this, DateTime.Parse(reader[colName].ToString()));
+                    propertyInfo.SetValue(this, reader[colName] != null ? DateTime.Parse(reader[colName].ToString()) : new DateTime());
                 }
                 else if (propertyInfo.PropertyType == typeof(byte[]))
                 {
