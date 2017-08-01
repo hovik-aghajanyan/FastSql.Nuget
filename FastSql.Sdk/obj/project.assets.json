@@ -4621,7 +4621,7 @@
     "C:\\Users\\hovo1\\.nuget\\packages\\": {}
   },
   "project": {
-    "version": "1.0.0",
+    "version": "1.0.3",
     "restore": {
       "projectUniqueName": "E:\\VisualStudio2017 Projects\\Fast.Sql.nuget\\FastSql.Sdk\\FastSql.Sdk.csproj",
       "projectName": "FastSql.Sdk",

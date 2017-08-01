@@ -802,7 +802,7 @@
     "fastsql.sdk/1.0.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-dV/4lRbPjMLsqMW9ZiU0jQn+/A65W2VPohK5OR1JqQrYi2TXdI5+NkpGkHBSd4haBhvG9WL+ZQN5gqYUCdJQMw==",
+      "sha512": "sha512-/TBFcd+tKq5Co553o/r6PcTXbDxhaH/VUGOrs3TXC7okahOd/KR6h1kqHKPo3f0+tjyjdR5oMZd7sQipmwz4OQ==",
       "path": "fastsql.sdk/1.0.0",
       "hashPath": "fastsql.sdk.1.0.0.nupkg.sha512"
     },

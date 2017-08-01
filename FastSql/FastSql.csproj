@@ -3,7 +3,7 @@
   <PropertyGroup>
     <TargetFramework>netstandard1.4</TargetFramework>
     <PackageId>FastSql</PackageId>
-    <PackageVersion>1.0.1</PackageVersion>
+    <PackageVersion>1.0.3</PackageVersion>
     <Authors>Hovik Aghajanyan</Authors>
     <Description>Sql execution based on models</Description>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
